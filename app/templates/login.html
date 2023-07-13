@@ -1,0 +1,26 @@
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<div class="fond">
+    <nav class="cont">
+        <nav class="mas">
+            <h1> Inicio de sesión </h1>
+            <div class="login">
+                <p class="size">Nombre Usuario</p>
+                <input type="text" class="margin">
+            
+                <p class="size">Contraseña Usuario</p>
+                <input type="text" class="margin">
+                <a href="{{url_for('hello_world')}}">
+                    <input type="button" value="Iniciar sesion" class="botton">
+                </div>
+            </a>
+        </nav>
+    </nav>
+ </div> 
+
+</div>
+{% endblock %}

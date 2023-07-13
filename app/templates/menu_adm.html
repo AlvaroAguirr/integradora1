@@ -1,0 +1,36 @@
+{%extends 'base.html'%}
+
+{% block title %}
+categories
+{% endblock %}
+
+{% block content %}
+<div>
+    <h1 class="titulo">Menu de adminsitrador</h1>
+    <nav id="container">
+        <a href="{{url_for('productos')}}"" class="options">
+                <img src="" alt="imagen" >
+                <p>productos</p>
+            </a>
+
+            <a href="#" class="options">
+                <img src="" alt="imagen" >
+                <p>Personal</p>
+            </a>
+        
+            <a href="#" class="options">
+                <img src="" alt="imagen" >
+                <p>Categoria</p>
+            </a>
+        
+            <a href="#" class="options">
+                <img src="" alt="imagen" >
+                <p>Venta y Reportes</p>
+            </a>
+    </nav>
+</div>
+
+
+</header>
+{% endblock %}
+
