@@ -1,14 +1,14 @@
 {%extends 'base.html'%}
 
 {% block title %}
-categories
+categorias
 {% endblock %}
 
 {% block content %}
 <div>
-    <h1 class="titulo">Menu de adminsitrador</h1>
+    <h1 class="titulo">Menú de adminsitrador</h1>
     <nav id="container">
-        <a href="{{url_for('productos')}}"" class="options">
+        <a href="{{ url_for('product.productos') }}" class="options">
                 <img src="" alt="imagen" >
                 <p>productos</p>
             </a>
@@ -23,13 +23,12 @@ categories
                 <p>Categoria</p>
             </a>
         
-            <a href="#" class="options">
+            <a href="{{ url_for('report.reports') }}" class="options">
                 <img src="" alt="imagen" >
                 <p>Venta y Reportes</p>
             </a>
     </nav>
 </div>
-
 
 </header>
 {% endblock %}

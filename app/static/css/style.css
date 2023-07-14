@@ -68,7 +68,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 .options{
 border: 3px solid black;
 border-radius: 4px;
-margin: 20px;
+margin: 20px; 
 height: 300px;
 text-align: center;
 
@@ -99,7 +99,7 @@ text-align: center;
 }
 .cont{
     display: flex;
-    border: 1px solid black;
+
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -126,6 +126,7 @@ text-align: center;
     background-color: #d8e7df;
     margin-top:20px ;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .margin{
@@ -134,4 +135,12 @@ height: 30px;
 width: 80%;
 border: none;
 border-radius: 3px;
+}
+
+.pdiv{
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ border-collapse: collapse;
 }
