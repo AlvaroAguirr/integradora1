@@ -6,30 +6,35 @@ productos
 {% endblock %}
 
 {% block content %}
-<nav class="titulo"> Insertar productos </nav>
+<nav class="titulo"> Añadir nuevos Usuarios</nav>
 
     <nav class="pdiv">
-        <div class="func func-pro">
+        <div class="func func-pers">
             
-            <h2>Nombre producto</h2>
+            <h2>Nombre empleado</h2>
             <input type="text" class="margin">
         
-            <h2> Precio producto</h2>
+            <h2> Apellido paterno</h2>
             <input type="text" class="margin">
             
-            <h2> Cantidad producto</h2>
+            <h2>Apellido materno</h2>
             <input type="text" class="margin">
             
-            <h2> Marca producto</h2>
+            <h2>Edad</h2>
+            <input type="text" class="margin">
+
+            <h2>Usuario</h2>
             <input type="text" class="margin">
             
-            <h2> Categoria producto</h2>
+            <h2> Contrasña</h2>
             <input type="text" class="margin">
         </div>
-        <a href="{{ url_for('product.productos') }}"> 
+        <a href="{{ url_for('personal.emp') }}"> 
 
             <input type="button" value="Guardar" class="bpr bpr-ac">
         </a>
+        
+        
         
     </nav>
     

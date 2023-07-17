@@ -7,10 +7,15 @@ productos
 
 {% block content %}
 
-<nav class="titulo"> <h1>administrador productos</h1></nav>
-<a href="{{ url_for('product.c_produ') }}" class="botton">Añadir</a>
-  <table id="d-table">
-    <thead>
+<nav class="titulo"> <h1>Administrador productos</h1></nav>
+<a href="{{ url_for('product.c_produ') }}" >
+    <input type="button" value="Añadir productos" class="bpr bpr-ac">
+
+</a>
+<nav class="a-table">
+
+    <table id="d-table">
+        <thead>
         <tr>
             <th>ID</th>
             <th>Nombre producto</th>
@@ -40,6 +45,7 @@ productos
   </table>  
 
 
+</nav>
 </header>
 
 {% endblock %}
